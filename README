@@ -1,0 +1,48 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=667
+
+In the dictionary-files you find the whole .NET-Framework (v1.0.3705) for auto-completion or use in scripts. There are all namespaces, all classes and all functions - at least I hope so.
+
+The entries are organized according to the main dlls. 
+E.g. mscorlib.dll becomes mscorlib.dict.
+
+The dictionaries:
+SystemData.dict
+MicrosoftVisualBasic.dict
+MicrosoftVsa.dict
+mscorlib.dict
+system.dict
+SystemConfigurationInstall.dict
+cscompmgd.dict
+SystemDesign.dict
+SystemDirectoryServices.dict
+SystemDrawing.dict
+SystemDrawingDesign.dict
+SystemEnterpriseServices.dict
+SystemManagement.dict
+SystemMessaging.dict
+SystemRuntimeRemoting.dict
+SystemSecurity.dict
+SystemWebServices.dict
+SystemWindowsForms.dict
+SystemXml.dict
+
+Example from mscorlib.dict:
+System.String.Length
+System.String.op_Equality(System.String,System.String)
+System.String.op_Inequalit(System.String,System.String)
+System.String.PadLeft(System.Int32)
+System.String.PadLeft(System.Int32,System.Char)
+System.String.PadRight(System.Int32)
+System.String.PadRight(System.Int32,System.Char)
+System.String.Remove(System.Int32,System.Int32)
+System.String.Replace(System.Char,System.Char)
+System.String.Replace(System.String,System.String)
+System.String.Split(System.Char[])
+...
+
+I hope someone invents a good possibilty to use theses entries. 
+Please let me know what you have done.
+
+Regards,
+
+--Klaus Horsten
